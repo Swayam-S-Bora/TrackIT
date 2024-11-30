@@ -439,20 +439,6 @@ def remove_watchlist():
         print(f"Error during removal: {e}")
         flash('Failed to remove product from your watchlist.', 'danger')
 
-
-    # Determine the correct column based on the platform
-    # columnname = 'srno_A' if platform == 'amazon' else 'srno_F'
-
-    # if columnname and srno:
-    #     try:
-    #         remove_item(user_email, columnname, int(srno))
-    #         flash('Product removed from your watchlist.', 'success')
-    #     except Exception as e:
-    #         print(f"Error during removal: {e}")
-    #         flash('Failed to remove product from your watchlist.', 'danger')
-    # else:
-    #     flash('Invalid request.', 'danger')
-
     return redirect(url_for('dashboard'))
 
 if __name__ == '__main__':
