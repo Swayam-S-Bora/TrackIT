@@ -45,7 +45,7 @@ TrackIT/
 ├── functions.py        # Utility functions for scraping and data processing
 ├── predictor.py        # Module for price prediction logic
 ├── requirements.txt    # Python dependencies
-├── static/             # Static files (CSS, JS, images)
+├── static/             # Static files (CSS, images)
 │   ├── css/
 │   └── js/
 ├── templates/          # HTML templates
